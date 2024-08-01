@@ -1,0 +1,22 @@
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.form-input {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid transparent;
+    background-color: #1a1a1a;
+    transition: border-color 0.25s;
+    padding: 6px;
+    width: 180px;
+}
+.form-input:hover {
+    border-bottom-color: #646cff;
+}
